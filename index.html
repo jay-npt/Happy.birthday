@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love 💞</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Name Entry Section -->
+    <section id="name-entry" class="full-screen center-content">
+        <div class="container">
+            <h1 class="neon-text">Enter Your Name</h1>
+            <input type="text" id="user-name" placeholder="Type your name..." class="name-input">
+            <button id="continue-btn" class="glow-button">Continue</button>
+        </div>
+    </section>
+
+    <!-- Special Message Section -->
+    <section id="special-message" class="full-screen center-content hidden">
+        <div class="container">
+            <img src="sp.png" alt="Special Birthday Message" class="message-image animate__animated">
+            <div id="typed-message" class="typed-message"></div>
+            <button id="view-messages-btn" class="glow-button hidden">➥ꜱᴩᴇᴄɪᴀʟ🥳</button>
+        </div>
+    </section>
+
+    <!-- Message Gallery -->
+    <section id="message-gallery" class="hidden">
+        <!-- Messages will be added dynamically by JavaScript -->
+    </section>
+
+    <footer>
+        Made with ❤️ by Jay
+    </footer>
+
+    <audio id="bg-music" loop>
+        <source src="bsong.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
