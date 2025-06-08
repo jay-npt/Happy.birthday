@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Messages data
     const messages = [
         {
-            img: 'im2.png',
+            img: '/img2.png',
             text: 'Happy Birthday Sunu… Aaj ka din sirf tumhara hai, jaise mera har din sirf tumhare liye hai. Tum mein hi mera sukoon hai, meri muskurahat hai, mera pyaar hai. Har saal, har janam tum meri hi raho — bas yahi dua karta hoon. Main tumse lafzon se zyada, waqt se zyada, zindagi se zyada pyaar karta hoon.'
         },
         {
-            img: 'img3.png',
+            img: '/img3.png',
             text: 'Happy Birthday meri jaan, Kabhi kabhi tum dard deti ho, par us dard mein bhi tumhara naam hota hai. Main toot padta hoon, par phir bhi tum mein hi jeena chahta hoon. Tum sirf mera pyaar nahi ho, meri aadat ban chuki ho. Galti tumhari ho ya na ho, main khud ko sirf tum mein hi dhoondta hoon.'
         },
         {
